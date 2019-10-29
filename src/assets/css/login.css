@@ -1,0 +1,95 @@
+body{
+
+}
+.mainColumn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/sky.jpg) no-repeat center / cover;
+}
+
+.loginCard{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 5rem;
+    text-align: center;
+    background-color: #fff;
+    padding: 0.4rem 0.5rem 0.4rem;
+    border-radius: 0.2rem
+}
+.loginCard .loginTitle{
+    text-align: center;
+    font-size: 0.36rem;
+    color: #666;
+}
+.loginCard .loginForm .loginForm-item{
+    margin-top: 0.3rem
+}
+.loginCard .loginForm .loginForm-item .inputWrap{
+    width: 5rem;
+    height: 0.6rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.01rem solid #ffcb3f;
+
+}
+.loginCard .loginForm .loginForm-item .inputWrap input{
+    border: 0;
+    outline: 0;
+    height: 90%;
+    width: 80%;
+    font-size: 0.2rem;
+    background-color: transparent;
+}
+.loginCard .loginForm .loginForm-item .submitBtn{
+    border: 0;
+    outline: 0;
+    height: 0.6rem;
+    width: 3rem;
+    font-size: 0.24rem;
+    border-radius: 0.3rem;
+    background-color: #ffcb3f;
+    color: #fff;
+    font-weight: 700;
+}
+.loginCard .loginForm .validate .inputWrap .normal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.loginCard .loginForm .validate .inputWrap input{
+    width: 52%;
+    height: 90%;
+    font-size: 0.2rem;
+    background-color: transparent;
+    padding-left: 0.26rem;
+}
+.loginCard .loginForm .validate .inputWrap button{
+    border: 0;
+    outline: 0;
+    height: 80%;
+    width: 34%;
+    font-size: 0.2rem;
+    color: #c3c3c3;
+    margin-top: -0.03rem;
+    background-color: transparent;
+}
+.loginCard .msbar{
+    margin-top: 0.4rem;
+    font-size: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.loginCard .msbar a{
+    color: #666
+}

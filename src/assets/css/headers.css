@@ -1,0 +1,73 @@
+/* 头部 */
+#header{
+    width: 100%;
+    height: 0.88rem;
+    border-bottom:0.01rem solid #EDEDED;
+    box-sizing:border-box;
+    background-color:#FFFFFF;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+}
+.w-back{
+    display: block;
+    float: left;
+    width: 0.36rem;
+    height: 0.08rem;
+    margin-right: 0.23rem;
+}
+.hea_w{
+    width: 7.5rem;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.44rem;
+}
+.hea_w .w-back .iconfont{
+    font-size: 0.36rem;
+    color: #000000;
+    float: left;
+    padding: 0.18rem 0 0 0.24rem;
+}
+.hea_w .title{
+    width: 0.92rem;
+    height: 0.3rem;
+    line-height:0.88rem;
+    font-size: 0.36rem;
+    letter-spacing: 0.11rem;
+    font-family: 'GillSansMT-ExtraCondensedBold';
+}
+.hea_w .title span{
+    color: #ffcb3f;
+}
+.hea_w .set{
+    width: 0.36rem;
+    height: 0.08rem;
+    float: right;
+    margin-right: 0.23rem;
+    display: block;
+    padding-top: 0.4rem;
+}
+.hea_w .set .itm{
+    width: 0.08rem;
+    height: 0.08rem;
+    float: left;
+    background: #000000;
+    border-radius: 50%;
+}
+.hea_w .set .itm:nth-child(2){
+    margin:0 0.06rem;
+}
+.fenlei{
+    width:7.5rem;
+    height:0.88rem;
+    padding:0 0.24rem 0.24rem;
+    border-bottom:0.01rem solid #FECA43;
+    margin-top:0.88rem;
+    box-sizing:border-box;
+    background-color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}

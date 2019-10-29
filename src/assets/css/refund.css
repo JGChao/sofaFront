@@ -1,0 +1,210 @@
+img{
+    display: block;
+}
+
+/* 状态栏+标题栏开始 */
+.top-wrap{
+    width: 7.5rem;
+    height: 0.88rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.top-wrap .tit-bar{
+    width: 100%;
+    height: 0.88rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0 0.24rem;
+    border-bottom: 0.01rem solid #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-wrap .tit-bar img{
+    width: 0.94rem;
+    height: 0.3rem;
+}
+.top-wrap .tit-bar a{
+    color: #000;
+}
+.top-wrap .tit-bar a i{
+    font-size: 0.38rem;
+}
+/* 状态栏+标题栏结束 */
+/* 导航栏开始 */
+.nav-bar{
+    width: 7.5rem;
+    height: 0.78rem;
+    background-color: #fff;
+    border-bottom: 0.01rem solid #F5F5F5;
+    box-sizing: border-box;
+    padding: 0 0.24rem;
+    text-align: center;
+    line-height: 0.78rem;
+    color: #000;
+    position: fixed;
+    top: 0.88rem;
+}
+.nav-bar a{
+    color: #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0.24rem;
+}
+/* 导航栏结束 */
+
+/* 内容/商品卡片开始 */
+.content-wrap{
+    width: 7.5rem;
+    height: 9.18rem;
+    box-sizing: border-box;
+    padding: 0 0.24rem;
+    margin-top: 1.78rem;
+}
+.content-wrap ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-wrap ul li{
+    width: 7.02rem;
+    height: 2.76rem;
+    background-color: #fff;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(0, 0, 0, 0.09);
+    border-radius: 0.1rem;
+    box-sizing: border-box;
+    padding: 0.52rem 0 0.23rem 0.2rem;
+}
+.content-wrap ul li .shopImg{
+    display: block;
+    width: 1.86rem;
+    height: 1.31rem;
+    float: left;
+}
+.content-wrap ul li .shopImg img{
+    width: 100%;
+    height: 100%;
+}
+.content-wrap ul li .txt{
+    width: 4.5rem;
+    height: 1.56rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.content-wrap ul li .txt .tit{
+    color: #242424;
+    margin-top: 0.08rem;
+}
+.content-wrap ul li .txt .tit a{
+    color: #242424;
+    font-size: 0.26rem;
+    font-weight: 700;
+}
+.content-wrap ul li .txt .tit a em{
+    font-size: 0.18rem;
+    font-style: none;
+    font-weight: 400;
+}
+.content-wrap ul li .txt .tit b{
+    float: right;
+    font-size: 0.26rem;
+}
+.content-wrap ul li .txt .infor{
+    font-size: 0.18rem;
+    color: #9D9D9D;
+    margin: 0.02rem 0 0.1rem;
+}
+.content-wrap ul li .txt .time{
+    font-size: 0.18rem;
+    color: #737373;
+}
+.content-wrap ul li .txt .price{
+    display: block;
+    float: right;
+    font-size: 0.18rem;
+    color: #000;
+    margin-top: 0.2rem;
+}
+.content-wrap ul li .txt .price b{
+    font-size: 0.26rem;
+}
+.content-wrap ul li .btn{
+    display: block;
+    width: 1.34rem;
+    height: 0.44rem;
+    font-size: 0.24rem;
+    float: right;
+    text-align: center;
+    line-height: 0.44rem;
+    color: #ffcb3f;
+    box-sizing: border-box;
+    border: 0.01rem solid #ffcb3f;
+    border-radius: 0.04rem;
+    margin-right: 0.32rem;
+}
+/* 内容/商品卡片结束 */
+
+/* tab栏开始 */
+.tab-bar{
+    width: 7.5rem;
+    height: 0.98rem;
+    position: fixed;
+    bottom: 0;
+    border-top: 0.01rem solid #F5F5F5;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 999;
+}
+.tab-bar ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tab-bar ul li{
+    width: 0.8rem;
+    height: 0.7rem;
+}
+.tab-bar ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 0.4rem;
+    font-size: 0.2rem;
+    text-align: center;
+    color: #6C6C6D;
+}
+.tab-bar ul li.this a{
+    color: #ffcb3f;
+    font-weight: 700;
+}
+/* 每个图标选中与未选中对应不同图像 */
+.tab-bar ul li.btn1 a{
+    background: url(../img/000_03.png) top center no-repeat;
+    background-size: 0.4rem;
+}
+.tab-bar ul li.btn2 a{
+    background: url(../img/000_05.png) top center no-repeat;
+    background-size: 0.4rem;
+}
+.tab-bar ul li.btn3 a{
+    background: url(../img/000_07.png) top center no-repeat;
+    background-size: 0.4rem;
+}
+.tab-bar ul li.btn4 a{
+    background: url(../img/000_18.png) top center no-repeat;
+    background-size: 0.4rem;
+}
+/* tab栏结束 */
+
+
+
+

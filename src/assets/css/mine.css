@@ -1,0 +1,260 @@
+/* .dh{
+    width: 7.5rem;
+    height: 0.88rem;
+    background-color: #fff;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.dh .dhnk{
+    width: 7.02rem;
+    height: 0.88rem;
+    background-color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.dh .dhnk img{
+    width: 0.92rem;
+    height: 0.3rem;
+}
+.dh .dhnk a{
+    color: #0C0C0C;
+}
+.dh .dhnk .iconcuo{
+    font-size: 0.35rem;
+}
+.dh .dhnk .icondiandiandian{
+    font-size: 0.4rem;
+} */
+img{
+    display: block;
+}
+body{
+    background-color: #FAFAFA;
+}
+
+/* 状态栏+标题栏开始 */
+.top-wrap{
+    width: 7.5rem;
+    height: 0.88rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.top-wrap .tit-bar{
+    width: 100%;
+    height: 0.88rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0 0.24rem;
+    border-bottom: 0.01rem solid #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-wrap .tit-bar img{
+    width: 0.94rem;
+    height: 0.3rem;
+}
+.top-wrap .tit-bar a{
+    color: #000;
+}
+.top-wrap .tit-bar a i{
+    font-size: 0.38rem;
+}
+/* 状态栏+标题栏结束 */
+.bj{
+    width: 7.5rem;
+    height: 2rem;
+    background-color: #fff;
+    margin-top: 0.88rem;
+}
+.bj img{
+    width: 7.5rem;
+    height: 2rem;
+}
+.yh{
+    width: 7.5rem;
+    height: 1.72rem;
+    background-color:#FAFAFA;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.yh .yhh{
+    width: 7.02rem;
+    height: 3.1rem;
+    background-color: #fff;
+    border-radius: 0.15rem;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 0 0.1rem 0.01rem #F1F1F1;
+}
+.yh .yhh .yhhs{
+    width: 7.02rem;
+    height: 1.38rem;
+    background-color: #fff;
+    border-top-left-radius: 0.15rem;
+    border-top-right-radius: 0.15rem;
+    padding: 0 0.49rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.yh .yhh .yhhs .zzz{
+    font-size: 0.28rem;
+    color: #4D4D4D;
+    position: absolute;
+    top: 0.5rem;
+    font-weight: bold;
+}
+.yh .yhh .yhhs p .iconxunzhang{
+    color: #FFDD84;
+    font-size: 0.24rem;
+}
+.yh .yhh .yhhs .zz{
+    font-size: 0.18rem;
+    color: #A8A8A8;
+    position: absolute;
+    top:0.9rem;
+}
+.yh .yhh .yhhs .zzt{
+    width: 0.92rem;
+    height: 0.92rem;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.39rem;
+    right: 0.55rem;
+}
+.yh .yhh .yhhs .zzt img{
+    width: 0.92rem;
+    height: 0.92rem;
+}
+.yh .yhh .yhhx{
+    width: 7.02rem;
+    height: 1.72rem;
+    background-color: #fff;
+    border-bottom-left-radius: 0.15rem;
+    border-bottom-right-radius: 0.15rem;
+    padding: 0 0.49rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.yh .yhh .yhhx .yt{
+    width: 0.75rem;
+    height: 1.72rem;
+    background-color: #fff;
+}
+.yh .yhh .yhhx .yt a{
+    width: 0.75rem;
+    height: 1.72rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.yh .yhh .yhhx .yt a i{
+    font-size: 0.35rem;
+    color: #7C7C7C;
+}
+.yh .yhh .yhhx .yt a .yhz{
+    font-size: 0.24rem;
+    color: #353535;
+}
+.tb{
+    width: 7.5rem;
+    height: 4.48rem;
+    background-color: #FAFAFA;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.tb .tbnk{
+    width: 7.02rem;
+    height: 4.24rem;
+    background-color: #fff;
+    border-radius: 0.15rem;
+    padding: 0 0.49rem;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+}
+.tb .tbnk .tbic{
+    width: 6.04rem;
+    height: 1.41rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.tb .tbnk .tbict{
+    width: 1.2rem;
+    height: 1.41rem;
+    background-color: #fff;
+}
+.tb .tbnk .tbict a{
+    width: 1.2rem;
+    height: 1.41rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tb .tbnk .tbict a i{
+    font-size: 0.3rem;
+    color: #7C7C7C;
+}
+.tb .tbnk .tbict a .tbz{
+    font-size: 0.24rem;
+    color: #353535;
+}
+.xx{
+    width: 7.5rem;
+    height: 2.69rem;
+    background-color: #FAFAFA;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.xx .xxnk{
+    width: 7.02rem;
+    height: 2.42rem;
+    background-color: #fff;
+    border-radius: 0.15rem;
+    padding: 0 0.49rem;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+}
+.xx .xxnk .nkx{
+    width: 6.04rem;
+    height: 0.83rem;
+    border-bottom: 0.01rem solid #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.xx .xxnk .nkx .nnn{
+    font-size: 0.24rem;
+    color: #363636;
+}
+.xx .xxnk .nkx .nnn .iconguanlian{
+    font-size: 0.33rem;
+    color: #828282;
+    margin-right: 0.05rem;
+}
+.xx .xxnk .nkx a .iconyou{
+    font-size: 0.24rem;
+    color: #808080;
+}
+.xx .xxnk .nkx .nnn .iconbiaoqian{
+    font-size: 0.33rem;
+    color: #828282;
+    margin-right: 0.05rem;
+}
+
+
+

@@ -1,0 +1,236 @@
+/* 状态栏+标题栏开始 */
+.top-wrap{
+    width: 7.5rem;
+    height: 1.28rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.top-wrap .tit-bar{
+    width: 100%;
+    height: 0.88rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0 0.24rem;
+    border-bottom: 0.01rem solid #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-wrap .tit-bar img{
+    width: 0.94rem;
+    height: 0.3rem;
+}
+.top-wrap .tit-bar a{
+    color: #000;
+}
+.top-wrap .tit-bar a i{
+    font-size: 0.38rem;
+}
+/* 状态栏+标题栏结束 */
+/* 导航栏开始 */
+.nav-bar{
+    width: 7.5rem;
+    height: 0.78rem;
+    background-color: #fff;
+    border-bottom: 0.01rem solid #F5F5F5;
+    box-sizing: border-box;
+    padding: 0 0.24rem;
+    text-align: center;
+    line-height: 0.78rem;
+    color: #000;
+    position: fixed;
+    top: 0.88rem;
+}
+.nav-bar a{
+    color: #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0.24rem;
+}
+/* 导航栏结束 */
+/* 物品栏开始 */
+.lan{
+    height:2.9rem;
+    width:7rem;
+    margin: 0 auto;
+    margin-top: 1.6rem;
+    border-radius: 0.1rem;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(0, 0, 0, 0.09);
+}
+.lan .zuo{
+    width: 1.87rem;
+    height: 1.34rem;
+    float: left;
+    margin: 0.5rem 0.2rem;;
+}
+.lan img{
+    height: 1.34rem;
+    width: 1.87rem;
+}
+.lan .you{
+    height: 1.34rem;
+    width:4.26rem;
+    float: right;
+    margin: 0.5rem 0.2rem;
+}
+.lan .you p{
+    font-size: 0.18rem;
+    color: #9f9f9f;
+    line-height: 0.4rem;
+}
+.lan .you a{
+    font-size: 0.22rem;
+    color: #9f9f9f;
+    line-height: 0.4rem;
+}
+.lan .you span{
+    font-size: 0.22rem;
+    color: #333333;
+}
+.shenqing{
+    width: 7rem;
+    height: 0.9rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(0, 0, 0, 0.09);
+    border-radius: 0.1rem;
+}
+.shenqing p{
+    font-size: 0.24rem;
+    color: #333333;
+    line-height: 0.9rem;
+    padding: 0 0.2rem;
+}
+.shenqing a{
+    float: right;
+    font-size: 0.24rem;
+    color: #cccccc;
+    line-height: 0.9rem;
+}
+/* 问题描述框开始 */
+.miaoshu{
+    height: 3.9rem;
+    width: 7rem;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    border-radius: 0.1rem;
+    color: #333333;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(0, 0, 0, 0.09)
+}
+.miaoshu .z{
+    padding: 0.1rem 0.2rem;
+}
+.miaoshu textarea{
+    height: 2.6rem;
+    width: 6.64rem;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    resize: none;
+    border-radius: 0.1rem;
+    padding: 0.18rem;
+    box-sizing: border-box;
+    display: block;
+    outline: 0;
+    border: 0;
+    position: relative;
+}
+.miaoshu div{
+    position: absolute;
+    top: 8.5rem;
+    left: 0.6rem;
+
+}  
+.miaoshu .iconzhaoxiangji{
+    display: block;
+    margin-top: 0.1rem;
+} 
+.miaoshu i{
+    font-size: 0.5rem;
+    margin-left: 0.3rem;
+    color: #999999;
+}
+/* 提交框开始 */
+.box{
+    height: 0.77rem;
+    width: 6.38rem;
+    background-color: #ffcb3f;
+    font-size: 0.3rem;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0.77rem;
+    margin-top: 2rem;
+    border-radius: 0.1rem;
+}
+/* 透明框开始 */
+.heikuang{
+    height: 13.34rem;
+    width: 7.5rem;
+    background-color:rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+}
+/* 原因开始 */
+.bigbox{
+    height:5.7rem;
+    width: 7.5rem;
+    background-color:#fff;
+    position: absolute;
+    top: 7.6rem;
+    z-index: 1001;
+}
+.bigbox .xiaobox1{
+    height: 0.7rem;
+    width: 7.5rem;
+    font-size: 0.3rem;
+    color: #333333;
+    text-align: center;
+    line-height: 0.7rem;
+}
+.bigbox .xiaobox2{
+    height: 4.2rem;
+    width: 7.5rem;
+}
+.bigbox .xiaobox2 p{
+    height: 0.5rem;
+    width: 7.5rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.3rem;
+    color: #999999;
+    float: left;
+}
+.bigbox .xiaobox2 p .yuan{
+    border: 0.03rem solid #fff3d1;
+    background-color: #ffcb3f;
+}
+.bigbox .xiaobox2 p span{
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #ffffff;
+    border-radius: 0.12rem;
+    border: 0.03rem solid #999999;
+    float: right;
+    margin-top: 0.1rem;
+}
+/* 确定开始 */
+.xia{
+    height: 0.77rem;
+    width: 7.5rem;
+    background-color: #ffcb3f;
+    font-size: 0.3rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.77rem;
+    margin-top: 2rem;
+    position: absolute;
+    bottom: 0;
+    z-index: 1002;
+}
